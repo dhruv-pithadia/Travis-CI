@@ -1,14 +1,37 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Welcome</title>
+    <meta charset="UTF-8">
+    <title>DevOps CI/CD Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 
 <body>
-    <h1>Hello from Flask + Travis CI!</h1>
-    <h2>Project Done</h2>
-    <h3>new push</h3>
+    <div class="container">
+        <h1>🛠️ DevOps CI/CD Pipeline</h1>
+        <h2>CircleCI x Flask x Render</h2>
+        <p class="description">
+            Welcome to the deployment of a fully automated Continuous Integration pipeline built using
+            <strong>CircleCI</strong> and <strong>Flask</strong>. This project demonstrates the seamless flow
+            of code from development to deployment.
+        </p>
+
+        <div class="info-block">
+            <h3>🚀 Project Highlights</h3>
+            <ul>
+                <li>📂 Version Control with Git + GitHub</li>
+                <li>🔁 CI using CircleCI</li>
+                <li>⚙️ Auto Build & Test on Push</li>
+                <li>🌐 Deployed live on Render</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Maintained by: <strong>Your Name</strong></p>
+            <p>Source Code: <a href="https://github.com/yourusername/APD-project" target="_blank">GitHub Repo</a></p>
+        </div>
+    </div>
 </body>
 
 </html>
